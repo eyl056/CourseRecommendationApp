@@ -10,7 +10,8 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/check"
-        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="19dp"
         android:contentDescription="TODO" />
 
     <ImageView
@@ -19,7 +20,7 @@
         android:layout_height="40dp"
         android:src="@drawable/user"
         android:layout_marginStart="323.19dp"
-        android:layout_marginTop="17.69dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="TODO" />
 
     <TextView android:text="프리패스"

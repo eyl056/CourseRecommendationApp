@@ -15,8 +15,7 @@
             android:id="@+id/img1"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/check"/>
 
         <ImageView
@@ -44,12 +43,40 @@
             android:layout_marginTop="83dp"
             android:background="#707070" />
 
+        <TextView
+            android:text="남산 케이블카"
+            android:textSize="30sp"
+            android:id="@+id/restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="100dp"
+            android:textColor="#707070" />
+
+        <TextView
+            android:text="             위치 : 서울 중구 소파로 83\n
+            운영 시간 : 10:00 - 22:00\n
+            가격 : \n             대인 왕복 : 9500₩\n
+            대인 편도 : 7000₩\n
+            소인 왕복 : 6500₩\n
+            소인 편도 : 4000₩\n
+            ' 많은 어른들의 추억 속에\n
+            자리 잡았을 남산의 명물,  \n
+                       남산 케이블카 '"
+            android:textSize="20sp"
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="150dp"
+            android:textColor="#707070" />
+
         <ImageView
             android:id="@+id/mapimage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/view1"
-            android:src="@drawable/course4detail1" />
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_below="@+id/detail"
+            android:src="@drawable/cablecar" />
 
     </RelativeLayout>
 

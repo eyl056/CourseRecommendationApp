@@ -14,7 +14,7 @@ class Course1DetailActivity : AppCompatActivity() {
 
         var img1: ImageView = findViewById(R.id.img1)
         img1.setOnClickListener{
-            val intent= Intent(this, TodaySurveyActivity::class.java)
+            val intent= Intent(this, Course1Activity::class.java)
             startActivity(intent)
         }
         var img2: ImageView = findViewById(R.id.img2)

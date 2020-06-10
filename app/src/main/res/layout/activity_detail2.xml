@@ -15,8 +15,7 @@
             android:id="@+id/img1"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/check"/>
 
         <ImageView
@@ -44,12 +43,40 @@
             android:layout_marginTop="83dp"
             android:background="#707070" />
 
+        <TextView
+            android:text="산림숲길"
+            android:textSize="30sp"
+            android:id="@+id/restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="100dp"
+            android:textColor="#707070" />
+
+        <TextView
+            android:text="\n
+            걷는구간 : \n
+            북측순환로 입구 - \n
+            (남산 순환버스 정류장) - \n
+            숲길 쉼터 - \n
+            남산약수터 - \n
+            야생화공원 경계부\n
+            걷는거리 : 910m\n
+            소요시간 : 30분"
+            android:textSize="20sp"
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="150dp"
+            android:textColor="#707070" />
+
         <ImageView
             android:id="@+id/mapimage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/view1"
-            android:src="@drawable/course4detail1" />
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_below="@+id/detail"
+            android:src="@drawable/forest" />
 
     </RelativeLayout>
 

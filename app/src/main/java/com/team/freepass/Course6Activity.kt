@@ -20,7 +20,8 @@ class Course6Activity : AppCompatActivity() {
         }
         var img2: ImageView = findViewById(R.id.img2)
         img2.setOnClickListener{
-
+            val intent= Intent(this, TodaySurveyActivity::class.java)
+            startActivity(intent)
         }
         var textfreepass: TextView = findViewById(R.id.textfreepass)
         textfreepass.setText("프리패스")

@@ -6,15 +6,14 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 
-class Course3DetailActivity2 : AppCompatActivity() {
-
+class Detail4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_course2_detail2)
+        setContentView(R.layout.activity_detail4)
 
         var img1: ImageView = findViewById(R.id.img1)
         img1.setOnClickListener{
-            val intent= Intent(this, Course3Activity::class.java)
+            var intent = Intent(this, TodaySurveyActivity::class.java)
             startActivity(intent)
         }
         var img2: ImageView = findViewById(R.id.img2)
@@ -25,8 +24,7 @@ class Course3DetailActivity2 : AppCompatActivity() {
         var textfreepass: TextView = findViewById(R.id.textfreepass)
         textfreepass.setText("프리패스")
         textfreepass.setOnClickListener{
-            val intent= Intent(this, TodaySurveyActivity::class.java)
-            startActivity(intent)
+
         }
     }
 }
