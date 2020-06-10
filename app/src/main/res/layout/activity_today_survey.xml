@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".TodaySurveyActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="70dp"
+                    android:textColor="#707070"
+                    android:text="오늘의 코스"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/section1"
+                android:layout_below="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/course"
+                    android:text="마음에 드는 태그를 선택해주세요"
+                    android:textStyle="bold"
+                    android:textColor="#707070"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:id="@+id/course_1"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="로맨틱"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+                <Button
+                    android:id="@+id/course_2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_1"
+                    android:background="@drawable/button_shape"
+                    android:text="데이트"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+                <Button
+                    android:id="@+id/course_3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_2"
+                    android:background="@drawable/button_shape"
+                    android:text="낭만"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_4"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="커플 여행"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_5"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_4"
+                    android:background="@drawable/button_shape"
+                    android:text="분위기"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_6"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_5"
+                    android:background="@drawable/button_shape"
+                    android:text="휴식"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_7"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="산책"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_8"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_7"
+                    android:background="@drawable/button_shape"
+                    android:text="나들이"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_9"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_8"
+                    android:background="@drawable/button_shape"
+                    android:text="여유"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_10"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="힐링"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_11"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_10"
+                    android:background="@drawable/button_shape"
+                    android:text="완만한 코스"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_12"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_11"
+                    android:background="@drawable/button_shape"
+                    android:text="전시회"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_14"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="역사"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_15"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_14"
+                    android:background="@drawable/button_shape"
+                    android:text="체험"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_16"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_15"
+                    android:background="@drawable/button_shape"
+                    android:text="케이블카"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_17"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="가족"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_18"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_17"
+                    android:background="@drawable/button_shape"
+                    android:text="아이와 함께"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_19"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_18"
+                    android:background="@drawable/button_shape"
+                    android:text="혼자 놀기"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_20"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="등산"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_21"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_20"
+                    android:background="@drawable/button_shape"
+                    android:text="라이딩"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_22"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_21"
+                    android:background="@drawable/button_shape"
+                    android:text="운동"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+                <Button
+                    android:id="@+id/course_23"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/button_shape"
+                    android:text="풍경"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_24"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_23"
+                    android:background="@drawable/button_shape"
+                    android:text="숨겨진 명소"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+                <Button
+                    android:id="@+id/course_25"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/course_24"
+                    android:background="@drawable/button_shape"
+                    android:text="인생 사진"
+                    android:textColor="#707070"
+                    android:layout_below="@+id/course_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="30dp"
+                android:layout_below="@+id/section1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button_complete"
+                    android:text="완료"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

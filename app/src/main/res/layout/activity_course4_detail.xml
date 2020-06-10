@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="30dp"
+            android:id="@+id/img1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/check"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user"
+            android:layout_marginStart="323.19dp"
+            android:layout_marginTop="17.69dp" />
+
+        <TextView
+            android:text="프리패스"
+            android:textSize="30sp"
+            android:id="@+id/textfreepass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155.72dp"
+            android:layout_marginTop="25.92dp"
+            android:textColor="#707070" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="83dp"
+            android:background="#707070" />
+
+        <ImageView
+            android:id="@+id/mapimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:src="@drawable/course4detail" />
+
+    </RelativeLayout>
+
+</ScrollView>

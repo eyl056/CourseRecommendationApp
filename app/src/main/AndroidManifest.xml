@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team.freepass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ApplicationController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Detail1"></activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TodaySurveyActivity" />
+        <activity android:name=".Course6DetailActivity1" />
+        <activity android:name=".Course6DetailActivity2" />
+        <activity android:name=".Course5DetailActivity2" />
+        <activity android:name=".Course5DetailActivity1" />
+        <activity android:name=".Course4DetailActivity2" />
+        <activity android:name=".Course4DetailActivity1" />
+        <activity android:name=".Course3DetailActivity2" />
+        <activity android:name=".Course3DetailActivity1" />
+        <activity android:name=".Course2DetailActivity2" />
+        <activity android:name=".Course2DetailActivity1" />
+        <activity android:name=".Course1DetailActivity2" />
+        <activity android:name=".Course1DetailActivity1" />
+        <activity android:name=".Course6DetailActivity" />
+        <activity android:name=".Course5DetailActivity" />
+        <activity android:name=".Course4DetailActivity" />
+        <activity android:name=".Course3DetailActivity" />
+        <activity android:name=".Course2DetailActivity" />
+        <activity android:name=".Course1DetailActivity" />
+        <activity android:name=".Course6Activity" />
+        <activity android:name=".Course5Activity" />
+        <activity android:name=".Course4Activity" />
+        <activity android:name=".Course3Activity" />
+        <activity android:name=".Course2Activity" />
+        <activity android:name=".Course1Activity" />
+    </application>
+
+</manifest>

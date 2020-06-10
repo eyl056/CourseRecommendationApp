@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/check"
+        android:layout_margin="30dp"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/user"
+        android:layout_marginStart="323.19dp"
+        android:layout_marginTop="17.69dp"
+        android:contentDescription="TODO" />
+
+    <TextView android:text="프리패스"
+        android:textSize="30sp"
+        android:id="@+id/textfreepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155.72dp"
+        android:layout_marginTop="25.92dp"
+        android:textColor="#707070"
+        android:layout_centerHorizontal="@+id/button1"/>
+
+    <TextView android:text="!맞춤형 코스 추천!"
+        android:textSize="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#707070"
+        android:layout_centerHorizontal="@+id/button1"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="83dp"
+        android:background="#707070"/>
+
+    <Button android:text="프러포즈도 가능한 로맨틱 데이트 코스"
+        android:id="@+id/button1"
+        android:layout_width="345dp"
+        android:layout_height="84dp"
+        android:textColor="#707070"
+        android:background="@drawable/btn_bg"
+        android:layout_centerInParent="true"/>
+
+    <Button android:text="낭만적인 커플여행 코스"
+        android:id="@+id/button2"
+        android:layout_width="345dp"
+        android:layout_height="84dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="#707070"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"/>
+
+    <Button android:text="분위기 있는 데이트 코스"
+        android:id="@+id/button3"
+        android:layout_width="345dp"
+        android:layout_height="84dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="#707070"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"/>
+
+</RelativeLayout>
